@@ -27,3 +27,5 @@
 
     >>>print('Hello World!')
 可以小兴奋一下了，我们完成了每个大牛都要经历的事情。在学下面的内容之前，不得不提一下Python的道，试着在'>>>'提示符后输入`import this`，你看到了什么？
+
+"There should be one-- and preferabley only one --obvious way to do it. Although that way may not be obvious at first unless you're Dutch."，这句话可能有同学不明白unless you're Dutch是什么意思，那个……Python之父Guido是荷兰人……
