@@ -30,4 +30,4 @@ Python3.X的版本可能需要输入
     >>>print('Hello World!')
 可以小兴奋一下了，我们完成了每个大牛都要经历的事情。交互环境中的提示符除了'>>>'还有'...'，你可以当它是未完待续的意思，比如编写函数和if语句的时候，再敲一下'回车'就可以结束函数体了。在学下面的内容之前，不得不提一下Python的道，试着在'>>>'提示符后输入`import this`，你看到了什么？
 
-"There should be one-- and preferabley only one --obvious way to do it. Although that way may not be obvious at first unless you're Dutch."，可能有同学不明白unless you're Dutch这句话是什么意思，那个……Python之父Guido是荷兰人……膜拜完'The Zen of Python'，如果你想退出交互环境的话一般是'Ctrl + c'，也可能是'Control + d'。另外'quit()'和'exit()'也可以退出交互环境。
+"There should be one-- and preferabley only one --obvious way to do it. Although that way may not be obvious at first unless you're Dutch."，可能有同学不明白unless you're Dutch这句话是什么意思，那个……Python之父Guido是荷兰人……膜拜完'The Zen of Python'，如果你想退出交互环境的话，不同的操作系统有些差异一般是'Ctrl + c'，也可能是'Control + d'。另外试试'quit()'和'exit()'也可以退出交互环境。
