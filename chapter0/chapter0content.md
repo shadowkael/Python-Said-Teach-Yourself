@@ -7,12 +7,14 @@
  如果你使用的是Linux操作系统或者Mac OS，那么你的系统中很可能已经装好了Python，你需要做的仅仅是知道自己的Python版本就好了。输入如下命令查看：
 
     python -V
+Python3.X的版本可能需要输入
 
+    python3 -V
 比如我这里看到的是：
 
     userMini:~ user$ python -V 
     Python 2.7.10
-如果出现*-bash: python: command not found*类似的提示那么你应该访问[www.python.org](http://www.python.org)，官网上有针对各操作系统详细的安装方法。
+如果出现 *-bash: python: command not found* 类似的提示那么你应该访问[www.python.org](http://www.python.org)，官网上有针对各操作系统详细的安装方法。
 #### 1.2 Windows
  在Windows中安装Python也很容易访问Python官网[www.python.org](http://www.python.org)，下载对应操作系统的安装包，安装即可，但是注意安装选项中有一个**"Add to path"**要打上勾，安装完成后可以在cmd或者Powershell中输入`python -V`，如果看到打印出了当前Python的版本号，说明安装成功。
 ### 2 代码编写环境
@@ -23,9 +25,9 @@
     [GCC 4.2.1 Compatible Apple LLVM 7.0.0 (clang-700.0.59.5)] on darwin
     Type "help", "copyright", "credits" or "license" for more information.
     >>>
-注意末尾的'>>>'，这是解释器中默认的提示符。按照惯例此时应该打印"Hello World!"了
+注意末尾的'>>>'，这是解释器中默认的提示符。按照惯例此时应该来打印"Hello World!"了
 
     >>>print('Hello World!')
-可以小兴奋一下了，我们完成了每个大牛都要经历的事情。在学下面的内容之前，不得不提一下Python的道，试着在'>>>'提示符后输入`import this`，你看到了什么？
+可以小兴奋一下了，我们完成了每个大牛都要经历的事情。交互环境中的提示符除了'>>>'还有'...'，你可以当它是未完待续的意思，比如编写函数和if语句的时候，再敲一下'回车'就可以结束函数体了。在学下面的内容之前，不得不提一下Python的道，试着在'>>>'提示符后输入`import this`，你看到了什么？
 
-"There should be one-- and preferabley only one --obvious way to do it. Although that way may not be obvious at first unless you're Dutch."，可能有同学不明白unless you're Dutch这句话是什么意思，那个……Python之父Guido是荷兰人……
+"There should be one-- and preferabley only one --obvious way to do it. Although that way may not be obvious at first unless you're Dutch."，可能有同学不明白unless you're Dutch这句话是什么意思，那个……Python之父Guido是荷兰人……膜拜完'The Zen of Python'，如果你想退出交互环境的话一般是'Ctrl + c'，也可能是'Control + d'。另外'quit()'和'exit()'也可以退出交互环境。
