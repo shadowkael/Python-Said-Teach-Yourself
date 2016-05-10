@@ -18,7 +18,7 @@ Python3.X的版本可能需要输入
 #### 1.2 Windows
  在Windows中安装Python也很容易访问Python官网[www.python.org](http://www.python.org)，下载对应操作系统的安装包，安装即可，但是注意安装选项中有一个**"Add to path"**要打上勾，安装完成后可以在cmd或者Powershell中输入`python -V`，如果看到打印出了当前Python的版本号，说明安装成功。
 ### 2 代码编写环境
- 选择什么操作系统并不重要，你熟悉哪个就用哪个，刚开始的几天里，我们会一直在Python的交互式解释器中溜达，当代码量超过20行的时候，我们就需要一个更方便的编写环境了。为了能更好的熟悉Python的语法，开始阶段最好选一个没有代码补全的简单文本编辑器，比如Notepad++(Windows)，gedit(Linux)，TextWrangler(OS X)。先来看一下Python交互式解释器长什么样子，在终端或者cmd中输入`python`，就可以看到类似下面的内容：
+ 选择什么操作系统并不重要，你熟悉哪个就用哪个，刚开始的几天里，我们会一直在Python的交互式解释器中溜达，当代码量超过20行的时候，我们就需要一个更方便的编写环境了。为了能更好的熟悉Python的语法，开始阶段最好选一个没有代码补全的简单文本编辑器，比如Notepad++(Windows)，gedit(Linux)，TextWrangler(OS X)，这里不建议使用Vim，它精简的设计使得熟悉Vim本身就需要时间。先来看一下Python交互式解释器长什么样子，在终端或者cmd中输入`python`，就可以看到类似下面的内容：
 
     userMini:~ user$ python
     Python 2.7.10 (default, Oct 23 2015, 19:19:21) 
