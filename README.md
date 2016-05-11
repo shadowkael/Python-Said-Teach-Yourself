@@ -1,5 +1,5 @@
 # 教自己学Python
- 教程在GitBook上的地址是：https://www.gitbook.com/book/gaochenglong/python-said-teach-yourself/details
+ 教程在GitBook上可以有更好的阅读呈现，地址：https://www.gitbook.com/book/gaochenglong/python-said-teach-yourself/details
 ## 道
  大约从2013年开始，我才明白，一个人真正想要得到的技能必须要自己来教。课程教学或者大牛的告戒都是参考，直到有一天你开始想怎么样教会教好自己时，那就进入正道了。
 ## 旅行和同行
