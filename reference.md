@@ -5,4 +5,4 @@
 
 ##### 此处书目的链接是对应的英文最新版本，[《Learn Python the hard way》](http://learnpythonthehardway.org/book/)、[《A Byte of Python》](http://python.swaroopch.com/)、[《How to Think Like a Computer Scientist: Learning with Python》](http://openbookproject.net/thinkcs/python/english2e/)
 
-## 二级目录中是LintCode网站里算法的 Python解法
+## 二级目录中是LintCode网站里算法题目的Python解法
