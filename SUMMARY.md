@@ -2,6 +2,7 @@
 
 * [内容介绍](README.md)
 * [参考内容](reference.md)
+   * 斐波纳契数列
    * [数组剔除元素本身后的乘积](LintCode-Python-Solution/ProductOfArrayExcludeItself.md)
        * 斐波纳契数列
 * [第零部分 学前班](chapter0/chapter0content.md)
