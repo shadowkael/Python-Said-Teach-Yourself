@@ -3,7 +3,7 @@
 * [内容介绍](README.md)
 * [参考内容](reference.md)
    * [数组剔除元素本身后的乘积](LintCode-Python-Solution/ProductOfArrayExcludeItself.md)
-   * 斐波纳契数列
+   * [斐波纳契数列]()
 * [第零部分 学前班](chapter0/chapter0content.md)
 * [第一部分 输入正确、语法正确(Typing Correct & Syntax Correct)](chapter1/README.md)
    * [基本运算](chapter1/calculate_1.md)
