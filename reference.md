@@ -5,4 +5,12 @@
 
 ##### 此处书目的链接是对应的英文最新版本，[《Learn Python the hard way》](http://learnpythonthehardway.org/book/)、[《A Byte of Python》](http://python.swaroopch.com/)、[《How to Think Like a Computer Scientist: Learning with Python》](http://openbookproject.net/thinkcs/python/english2e/)
 
-## 二级目录中是LintCode网站里算法题目的Python解法
+## LintCode Python解法
+
+二级目录中是LintCode网站上算法题集的Python解法，也算是应读者要求加一些语言之外又对编程很重要的东西。学习编程我觉得很有可能会陷入两个漩涡：
++ 一直重复if,for 
++ 一直重复调用各种API
+
+要想从这里出来，必须要“蹲马步”，而且这才编程的乐趣所在：
++ 熟悉语言，从可以用到能够选择
++ 算法，关注解决问题的方案优劣
