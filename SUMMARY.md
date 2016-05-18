@@ -11,5 +11,4 @@
 * [参考内容](reference.md)
    * [数组剔除元素本身后的乘积](LintCode-Python-Solution/ProductOfArrayExcludeItself.md)
    * [斐波纳契数列](LintCode-Python-Solution/Fibonacci.md)
-* 内建方法
 
