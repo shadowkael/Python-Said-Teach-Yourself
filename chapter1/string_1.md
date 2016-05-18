@@ -52,5 +52,12 @@ Python中可以进行多重赋值，比如下面代码中的三个变量，然�
 注意第三行我们在字符串内又使用了单引号，需要加入`\`，对它进行转义，此外`{}`内可以加上数字来表示使用后面`format`中的第几个参数，比如：
     >>> print('I like {1} than {0}'.format('apple', 'pear'))
     I like pear than apple
+#### 大写 and 小写
+upper()和lower()是一组功能相反的方法，upper()方法返回字符串的全部大写结果，lower()返回全部小写结果。还有一个更炫酷的方法title()，比如：
+    >>> sentence = 'My dear's birthday is Oct 20th.'
+    >>> sentence.title()
+    "My Dear's Birthday Is Oct 20th.
+如果你刚好需要显示一个英文际题，That is.
+
 #### 分割 and 合并
-字符串的内建方法：split（分割）和join（合并）正好是一组相反的方法。
+字符串的内建方法：split（分割）和join（合并）也是一组相反的方法，同时它们的使用频率相当高
