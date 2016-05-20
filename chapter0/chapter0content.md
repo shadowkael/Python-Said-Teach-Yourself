@@ -48,3 +48,8 @@ Python3.X的版本可能需要输入
     NameError: name 'gao' is not defined
  
  第二行指名了代码错误的位置，最后一行指出了错误类型是`NameError`，具体情况是`name 'gao' is not defined`，如果你遇到的问题在查阅文档后不能解决，可以试试把错误类型和具体内容粘到搜索引擎中，推荐使用Google或者Bing搜索。
+ 
+ ### 4友情提示
+ 后面的代码块中可能会出现：
+     >>> a = 5    # 给变量 a 赋值为 5
+ 代码中`#`后面的部分是注释(comments)，范围是从`#`开始，到这一行结束，这里用作解释说明教程中的代码。代码在真正运行时注释是不起作用的，自己编写代码时也应当留有注释，方便日后理解，有这么一句格言：“Code Tells You How, Comments Tell You Why”。
