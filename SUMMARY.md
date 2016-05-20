@@ -9,7 +9,7 @@
    * 无止尽的输出
    * 让一起都变得科学起来吧
 * [参考内容](reference.md)
-   * [LintCode Python解法]()
+   * [LintCode Python解法](LintCode-Python-Solution/README.md)
       * [数组剔除元素本身后的乘积](LintCode-Python-Solution/ProductOfArrayExcludeItself.md)
       * [斐波纳契数列](LintCode-Python-Solution/Fibonacci.md)
    * [附录]()
