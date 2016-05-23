@@ -12,6 +12,8 @@
     ...
     IndexError: list index out of range
 看下图中这条蛇找元素的时候我们可以从蛇头（0）开始向右正数，或者向左负数，比如“6”的索引可以是`3`也可以是`-5`。
+
 ![](image/sequence_nums.png)
+
 
 注意代码中最后的那两个`IndexError`，不要让索引值超过蛇的长度，那样会咬到尾巴。
