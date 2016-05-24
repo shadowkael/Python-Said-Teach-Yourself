@@ -28,7 +28,7 @@ Python中有一些内建方法，下面按照字母序罗列出来，你可以�
 |bytearray()|filter()|issubclass()|pow()|super()|
 |bytes()|float()|iter()|print()|tuple()|
 |callable()|format()|len()|property()|type()|
-|chr()|frozenset()|list()|rnage()|vars()|
+|chr()|frozenset()|list()|range()|vars()|
 |classmethod()|getattr()|locals()|repr()|zip()|
 |compile()|globals()|map()|reversed()|\_\_import\_\_()|
 |complex()|hasattr()|max()|round()||
