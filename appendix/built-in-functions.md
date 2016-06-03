@@ -32,4 +32,4 @@ Python中有一些内建方法，下面按照字母序罗列出来，你可以�
 |classmethod()|getattr()|locals()|repr()|zip()|
 |compile()|globals()|map()|reversed()|\_\_import\_\_()|
 |complex()|hasattr()|max()|round()||
-|delattr()|hash()|memoryview()|set()|||
+|delattr()|hash()|memoryview()|set()||
