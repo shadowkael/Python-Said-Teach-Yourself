@@ -18,21 +18,45 @@
 
 `^_^`
 
+### 准备工作
+此前我们的代码都是在交互环境中完成的，是时候来点不一样的了。在学前班里我们介绍了一些文本编辑器，现在召唤一个你喜欢的，然后开始编写吧。
+
+多行的Python代码稍微有些不同，下面的代码可以当做是一个参考。良好的代码编写应该是有缩进的，这样方面人类阅读和理解，Python解释器对缩进的要求是严格的，也就是说你必须进行缩进，缩进量通常为'2个空格或者4个空格'，注意不要用'Tab'和4个空格混用，因为不同编辑器可能会对'Tab'的缩进理解不同。
+
+那么问题来了，什么时候需要缩进呢？大概像下图一样：
+
+![](image/language.png)
+
+缩进描述的是属于关系，每有一层属于关系就需要缩进一次。
+
+写好了程序后，比如存为`abc.py`，
+在windows中进入相行目录，比如C盘下的py_ex，在Windows的命令行中输入：
+
+    C:\>python c:\py_ex\abc.py
+或者
+
+    cd c:\py_ex\abc.py
+    C:\py_ex\>python abc.py
+    
+在Linux或OSX的终端中输入python + 文件路径，比如要运行家目录内py_ex中的abc.py文件:
+
+    $ python ~/py_ex/abc.py
+
 ### 代码(Python3)
 下面的代码是Python3的，如果是Python2你还需要在`import`之前再加入一行`# -*- coding: utf-8 -*-`，来确保代码内的中文字符可以运行。
 
     import random
 
-    a = random.randint(0, 99)
+    rand_num = random.randint(0, 99)
     left = 0
     right = 99
     while True:
-        print(u'当前范围是：', left, '---', right)
+        print('当前范围是：', left, '---', right)
         test = int(input('再猜一下\n'))
-        if test == a:
+        if test == rand_num:
             print('^_^')
             break
-        if test > a:
+        if test > rand_num:
             right = test
         else:
             left = test
