@@ -12,7 +12,7 @@ Python中的关键字代表特定的含义，不能用于变量名，具体如�
 |continue|finally|is|return||
 |def|for|lambda|try|||
 
-**注print在3.X版本中变成了内建方法**
+**注print和exec在3.X版本中变成了内建方法**
 
 ##内建方法
 Python中有一些内建方法，下面按照字母序罗列出来，你可以把它们都写在本子上，每弄清楚了一个就标记一，直到全部明白：
