@@ -13,6 +13,7 @@
    * [LintCode Python解法](LintCode-Python-Solution/README.md)
       * [数组剔除元素本身后的乘积](LintCode-Python-Solution/ProductOfArrayExcludeItself.md)
       * [斐波纳契数列](LintCode-Python-Solution/Fibonacci.md)
+      * [删除元素]()
    * [附录](appendix/README.md)
       * [关键字和内建函数](appendix/built-in-functions.md)
 
