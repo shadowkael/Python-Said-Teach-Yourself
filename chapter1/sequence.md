@@ -168,6 +168,4 @@ Python支持一次为多个元素赋值，这个能力我们在基本运算小�
     Please enter user name: toor
     True
     
-##### “一组”检查
-    
 
