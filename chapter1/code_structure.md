@@ -29,14 +29,16 @@
     >>> color = 'purple'
     >>> if color == 'red':
     ...     print("Apple")
-    >>> elif color == 'yellow':
+    ... elif color == 'yellow':
     ...     print("Rock band")
-    >>> elif color == "purple":
+    ... elif color == "purple":
     ...     print("A vestiges of the thought")
-    >>> else:
+    ... else:
     ...     print("what is ", color")
     ...
     A vestiges of the thought
+    
+if、elif、else也被称作条件语句
     
 #### Python中的False
 
@@ -52,5 +54,28 @@
   + 空集合       set()
 
 除此之外，全都被认为是True，基于这样的定义，我们可以很方便的判定收到的参数或者列表是不是为空比如：`if ex_list:`就可以判定ex_list这个变量是不是有值，且值是不是为空。
+
+##### 注意，None是个很特别是值
+
+看下面这个例子，把`None`直接放到判定条件中：
+
+    >>> if None:
+    ...     print("True")
+    ... else:
+    ...     print("False")
+    ...
+    False
+    
+虽然结果输出了False但是None并不等同于False：
+    
+    >>> if None is False:
+    ...     print("None is False")
+    ... else:
+    ...     print("None is just None")
+    ...
+    None is just None
+    
+
+    
 
 
