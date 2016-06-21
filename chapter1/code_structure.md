@@ -23,7 +23,34 @@
     ...
     Flase condition block
     
-注意代码块开始的那一行行尾有个`:`，下一行属于这个块所以有四个空格用来缩进，然后是else，即条件不满足时执行该区块的内容，然后继续`:`和缩进。
+注意代码块开始的那一行行尾有个`:`，下一行属于这个块所以有四个空格用来缩进，然后是else，即条件不满足时，执行该区块的内容，然后继续`:`和缩进。
+
+注意Python中不像C语言中使用swich语句控制多分支而是使用elif（此外如果……）
+    >>> color = 'purple'
+    >>> if color == 'red':
+    ...     print("Apple")
+    >>> elif color == 'yellow':
+    ...     print("Rock band")
+    >>> elif color == "purple":
+    ...     print("A vestiges of the thought")
+    >>> else:
+    ...     print("what is ", color")
+    ...
+    A vestiges of the thought
     
+#### Python中的False
+
+除了逻辑运算得到的明确False外，下面的情况也会被认为是False:
+
+  + null 类型    None
+  + 整形         0
+  + 浮点         0.0
+  + 空字符串     ""
+  + 空列表       []
+  + 空元组       ()
+  + 空字典       {}
+  + 空集合       set()
+
+除此之外，全都被认为是True，基于这样的定义，我们可以很方便的判定收到的参数或者列表是不是为空比如：`if ex_list:`就可以判定ex_list这个变量是不是有值，且值是不是为空。
 
 
