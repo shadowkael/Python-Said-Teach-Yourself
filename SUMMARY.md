@@ -7,7 +7,7 @@
    * [字符串](chapter1/string_1.md)
    * [练手小游戏：不要猜中](chapter1/ex_1.md)
    * [序列家族](chapter1/sequence.md)
-   * [代码骨架](chapter1/code_stucture.md)
+   * [代码骨架](chapter1/code_structure.md)
    * 无止尽的输出
    * 让一起都变得科学起来吧
 * [参考内容](reference.md)
