@@ -76,7 +76,7 @@ if、elif、else也被称作条件语句
     None is just None
     
 ### 循环
-#### while
+#### while:定义循环区块
 目前为止我们的代码都是自顶向下执行的，有时候需要对某些代码块进行重复操作，这就用到了循环。Python中最简单的循环机制是while。比如打印0－9，可以写为：
 
     >>> count  = 0
@@ -90,9 +90,22 @@ if、elif、else也被称作条件语句
     .
     .
 
-#### break
-如果想让循环在某一条件下停止，但不确定在哪次循环中跳出，可以在无限循环中使用`break`语句。比如我们通过Python的input()函数从键盘输入一个名字，当输入中出现数字`0`的时候跳出循环，再对输入的名字进行问候。
-   >>> while True:
-   ...     stuff = input("Name to greeting [type 0 to quit]:")
+#### break:跳出循环
+如果想让循环在某一条件下停止，但不确定在哪次循环中跳出，可以在无限循环中使用`break`语句。比如我们通过Python的input()函数从键盘输入名字，进行问候。当输入数字`0`的时候跳出循环。
 
+    >>> import string
+    >>> while True:
+    ...     name = input("Name to greeting [type 0 to quit]:")
+    ...     if name == 0:
+    ...         break
+    ...     print(string.capwords(name), ", greeting!")
+    ...
+    Name to greeting [type 0 to quit]: leonardo
+    Leonardo, greeting!
+    Name to greeting [type 0 to quit]: van gogh
+    Van Gogh, greeting!
+    Name to greeting [type 0 to quit]: 0
+    >>>
 
+#### continue:回到循环开始
+有时候我们不想一下子结束整个循环，仅仅是不执行后面的代码回到循环开始的位置，那么就需要用到continue关键字，比如下面这个例子是奇数
