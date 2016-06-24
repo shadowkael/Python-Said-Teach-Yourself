@@ -93,19 +93,34 @@ if、elif、else也被称作条件语句
 #### break:跳出循环
 如果想让循环在某一条件下停止，但不确定在哪次循环中跳出，可以在无限循环中使用`break`语句。比如我们通过Python的input()函数从键盘输入名字，进行问候。当输入数字`0`的时候跳出循环。
 
-    >>> import string
-    >>> while True:
-    ...     name = input("Name to greeting [type 0 to quit]:")
-    ...     if name == 0:
-    ...         break
-    ...     print(string.capwords(name), ", greeting!")
-    ...
-    Name to greeting [type 0 to quit]: leonardo
-    Leonardo, greeting!
-    Name to greeting [type 0 to quit]: van gogh
-    Van Gogh, greeting!
-    Name to greeting [type 0 to quit]: 0
-    >>>
+    1   >>> import string
+    2   >>> while True:
+    3   ...     name = input("Name to greeting [type 0 to quit]:")
+    4   ...     if name == 0:
+    5   ...         break
+    6   ...     print(string.capwords(name), ", greeting!")
+    7   ...
+    8   Name to greeting [type 0 to quit]: leonardo
+    9   Leonardo, greeting!
+    10  Name to greeting [type 0 to quit]: van gogh
+    11  Van Gogh, greeting!
+    12  Name to greeting [type 0 to quit]: 0
+    13  >>>
+
+我们在第1行引入了string包，第6行中调用了string包中的一个函数`capwords()`，该函数接收一个字符串，并把每个单词的首字母大写。
 
 #### continue:回到循环开始
-有时候我们不想一下子结束整个循环，仅仅是不执行后面的代码回到循环开始的位置，那么就需要用到continue关键字，比如下面这个例子是奇数
+有时候我们不想一下子结束整个循环，仅仅是不执行后面的代码回到循环开始的位置，那么就需要用到continue关键字，比如下面这个例子输出1－5的平方，如果可以被3整除则跳过:
+
+    >>> for num in range(1,6):
+    ...     if num%3 == 0:
+    ...         continue
+    ...     print(num * num)
+    ...
+    1
+    4
+    16
+    25
+    
+这里我看到了循环的另一种实现方式，`for`其实`for`完成的是迭代，`range(1,6)`产生了一个可迭代的对象，Python中字符串、元组、字典、集合等都是可迭代的。`range()`的用法和序列一节中提到的分片类似，也是三个参数`range(start,stop,step)`
+    
