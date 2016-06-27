@@ -121,8 +121,31 @@ if、elif、else也被称作条件语句
     4
     16
     25
-    
-这里我们看到了循环的另一种实现方式：`for`。其实`for`完成的是迭代，`range(1,6)`产生了一个可迭代的对象，Python中字符串、元组、字典、集合等都是可迭代的。`range()`的用法和序列一节中提到的分片类似，也是三个参数`range(start,stop,step)`。Python文档中写到："Return a sequence of numbers from start to stop by step."
 
-### for:迭代
+#### for:迭代
+上面的代码中我们看到了循环的另一种实现方式：`for`。其实`for`完成的是迭代，`range(1,6)`产生了一个可迭代的对象，Python中字符串、元组、字典、集合等都是可迭代的。`range()`的用法和序列一节中提到的分片类似，也是三个参数`range(start,stop,step)`。Python文档中写到："Return a sequence of numbers from start to stop by step." 看下面一个例子：
+
+    >>> couple_num = [(1, 2), (2, 3), (3, 4)]
+    >>> for (a, b) in couple_num:
+    ...     print(a, b)
+    ...
+    1 2
+    2 3
+    3 4
+    >>> 
     
+#### else:循环结束的尾巴
+无论是使用`while`还是`for`都允许加上一个`else`语句，可以用作循环正常结束(不是由break跳出)后的扫尾，比如：
+
+    >>> a_list = list(range(10))
+    >>> matrix_list = []
+    >>> line = 0
+    >>> while line < 5:
+    ...     matrix_list.append(a_list)
+    ...     flag = input("type 'q' to quit loop, else continue ")
+    ...     if flag == 'q':
+    ...         break
+    ...     line += 1
+    ... else:
+    ...     pprint(matrix_list)
+    ...
