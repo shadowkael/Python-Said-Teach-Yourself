@@ -135,17 +135,20 @@ if、elif、else也被称作条件语句
     >>> 
     
 #### else:循环结束的尾巴
-无论是使用`while`还是`for`都允许加上一个`else`语句，可以用作循环正常结束(不是由break跳出)后的扫尾，比如：
+无论是使用`while`还是`for`都允许加上一个`else`语句，可以用作循环正常结束(不是由break跳出)后的扫尾。下面是一个稍微复杂一点的代码，用心敲一遍：
 
+    >>> from pprint import pprint
     >>> a_list = list(range(10))
     >>> matrix_list = []
     >>> line = 0
     >>> while line < 5:
     ...     matrix_list.append(a_list)
-    ...     flag = input("type 'q' to quit loop, else continue ")
+    ...     flag = input("type 'q' to quit loop, else continue. line:%s" % line)
     ...     if flag == 'q':
     ...         break
     ...     line += 1
     ... else:
     ...     pprint(matrix_list)
     ...
+    
+自己尝试解决所有的Error并正确运行它。
