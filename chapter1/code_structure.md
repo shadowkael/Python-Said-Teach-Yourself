@@ -122,5 +122,7 @@ if、elif、else也被称作条件语句
     16
     25
     
-这里我看到了循环的另一种实现方式，`for`其实`for`完成的是迭代，`range(1,6)`产生了一个可迭代的对象，Python中字符串、元组、字典、集合等都是可迭代的。`range()`的用法和序列一节中提到的分片类似，也是三个参数`range(start,stop,step)`
+这里我们看到了循环的另一种实现方式：`for`。其实`for`完成的是迭代，`range(1,6)`产生了一个可迭代的对象，Python中字符串、元组、字典、集合等都是可迭代的。`range()`的用法和序列一节中提到的分片类似，也是三个参数`range(start,stop,step)`。Python文档中写到："Return a sequence of numbers from start to stop by step."
+
+### for:迭代
     
