@@ -135,7 +135,7 @@ if、elif、else也被称作条件语句
     >>> 
     
 #### else:循环结束的尾巴
-无论是使用`while`还是`for`都允许加上一个`else`语句，可以用作循环正常结束(不是由break跳出)后的扫尾。下面是一个稍微复杂一点的代码，用心敲一遍：
+无论是使用`while`还是`for`都允许加上一个`else`语句，可以用作循环正常结束(不是由break跳出)后的扫尾。下面是一个稍微复杂一点的代码，用心敲一遍，并读懂它的意思：
 
     >>> from pprint import pprint
     >>> a_list = list(range(10))
@@ -148,7 +148,10 @@ if、elif、else也被称作条件语句
     ...         break
     ...     line += 1
     ... else:
+    ...     print(matrix_list)
     ...     pprint(matrix_list)
     ...
     
-自己尝试解决所有的Error并正确运行它。
+自己尝试解决所有的Error并正确运行它，如果一切顺利，并且没有打断会输出一个5\*10的矩阵。
+
+好了研究一下代码中新出现的东西，`from pprint import pprint`的意思是从标准库的pprint模块中引入pprint函数，该函数在输出时会尽量排列输出元素增加人类可读性。
