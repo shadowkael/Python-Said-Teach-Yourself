@@ -8,7 +8,7 @@
   * [练手小游戏：不要猜中](chapter1/ex1guess.md)
   * [序列家族](chapter1/sequence.md)
   * [代码骨架](chapter1/code_structure.md)
-  * [关键字概揽](chapter/keywords.md)
+  * [关键字概揽](chapter1/keywords.md)
   * [无止尽的输出](chapter1/wu-zhi-jin-de-shu-chu.md)
   * [练手小游戏：tutle绘图](chapter1/ex2tutle_game.md)
   * [字典和集合](chapter1/dict_set.md)
